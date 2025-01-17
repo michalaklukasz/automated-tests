@@ -1,0 +1,53 @@
+# Ignore build results
+bin/
+obj/
+allure-results/
+allure-report/
+
+# Ignore user-specific files
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+
+# Ignore Visual Studio 2022 build artifacts
+*.dbmdl
+*.jfm
+*.pdb
+
+# Ignore Allure report folders
+allure-results/
+allure-report/
+
+# Ignore build output folders
+test-results/
+TestResults/
+coverage/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Ignore Maven build artifacts (if using Maven)
+target/
+*.war
+*.jar
+*.ear
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore environment-specific or OS-specific files
+Thumbs.db
+.DS_Store
+*.iml
+
+# Ignore JetBrains Rider project files
+.idea/
+
+# Ignore test result files and logs (for example NUnit)
+TestResult.xml
